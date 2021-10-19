@@ -1,2 +1,3 @@
 git checkout -- index.html  把对工作区中对应文件的修改，还原成 Git 仓库中所保存的版本
 git reset HEAD index.html   从暂存区中移除对应的文件
+git commit -a -m '描述信息'  Git就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过git add步骤
