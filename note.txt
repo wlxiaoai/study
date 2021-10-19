@@ -4,3 +4,4 @@ git rm -f index.html        从Git仓库和工作区中同时移除对应的文�
 git rm --cached index.html  只从Git仓库中移除指定的文件，但保留工作区中对应的文件
 git commit -a -m '描述信息'  Git就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过git add步骤
 git log --pretty=oneline     在一行上展示所有的提交历史
+git 
